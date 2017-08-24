@@ -10,7 +10,7 @@ script: make html
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $mytoken
+  github_token: $mytoken2
   local_dir: _build/html/
   on:
     branch: master
