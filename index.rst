@@ -47,22 +47,42 @@ Code
 
 During GSoC, I worked on two different repos and had write access to push commits into them. 
 
-To see the commits done, please follow the links.
+**First Month**
+
+I used sphinx-bootstrap-theme as a basis of my project. I started implementing the navbar sections and put all the contents in the new website. Sphinx uses restructuredText as its markup language and I used RST for the entire website. I added a scrolling sidebar for navigation between headlines. At the end of the first month, the structure of the website was nicely prepared for revisions and improvements.
+
+**Second Month**
+
+The second month, I started to work on the blog section and used Ablog. However, the struggle was real, Ablog was full of bugs and it was the only option for blogging with Sphinx. Then, my mentors fixed the Ablog and did the magic. After that, I implemented the blogging system and made it possible for someone to write their own blog posts easily. Additionally, I integrated DISQUS to the blog and enabled commenting on the posts. At the end of the 2nd month, I made a lot of meetings with my mentors and started to work on the documentation theme.
+
+You can have a look at the SunPy website repo below :
 
 **SunPy Website**
 
 * `Website Repo <https://github.com/DuyguKeskek/sunpy-website>`_
 * `My contributons to the website <https://github.com/DuyguKeskek/sunpy-website/commits?author=DuyguKeskek>`_
 
+**Final Month**
+
+The final month, I used SunPy Sphinx Theme as a theme for the documentation and fixed a lot of issues that is related to docs. I made the documentation theme and also the website consistent throughout the final month and also fixed some bugs. I can comfortably say that the website is based on Sphinx and fully consistent ! The website gone live with the release of SunPy 0.8 and I'm really happy to see it.
+
+You can have a look at the SunPy Sphinx Theme repo here :
+
 **SunPy Sphinx Theme**
 
 * `Theme Repo <https://github.com/sunpy/sunpy-sphinx-theme>`_
 * `My contributons to the theme <https://github.com/sunpy/sunpy-sphinx-theme/commits?author=DuyguKeskek>`_
 
+**Work Left**
+
+There are still some issues on the list and there will always be since the website still needs improvements and fixes. I plan to work on these issues after the GSoC and contribute to open source !
+
+* `Issues <https://github.com/sunpy/sunpy-sphinx-theme/issues>`_
+
 Blog
 ----
 
-Here is the blog posts I wrote during GSoC.
+Here are the blog posts about the development process I wrote during GSoC.
 
 * `Congratulations ! Your proposal has been accepted…WUT ? <https://medium.com/@duygukeskek/congratulations-your-proposal-has-been-accepted-wut-b9f255139d8>`_
 * `Good Bye Community Bonding Period ! <https://medium.com/@duygukeskek/good-bye-community-bonding-period-446b01e03813>`_
@@ -84,6 +104,8 @@ Using the theme
 To use the theme, simply put this line in your conf.py ::
 
 	from sunpy_sphinx_theme.conf import *
+
+This website is created using `SunPy Sphinx Theme <https://github.com/sunpy/sunpy-sphinx-theme>`_
 
 .. toctree::
    :maxdepth: 2

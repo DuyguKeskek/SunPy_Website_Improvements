@@ -53,10 +53,7 @@ copyright = '2017, Duygu KESKEK'
 author = 'Duygu KESKEK'
 
 html_theme_options = {
-    'navbar_links': [
-        ("About me", page_url("about.html"), 1),
-        ("Contact", page_url("contact.html"), 1),
-    ]
+    'navbar_links': None
 }
 
 html_sidebars = {
